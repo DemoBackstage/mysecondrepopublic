@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: playback-order
-  description: Playback Order
+  name: Insurance-app-service
+  description: Insurance app service
   tags:
     - java
-    - playback
+    - Insurance
 spec:
   type: service
   lifecycle: production
-  owner: user:guest
-  system: audio-playback
+  owner: opensource-practice@capgemini.com
+  system: insurance-product
