@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: guidewire-sdk
+  description: guidewire java SDK
+spec:
+  type: library
+  lifecycle: production
+  owner: opensource-practice@capgemini.com
+  system: guidewire-lib
