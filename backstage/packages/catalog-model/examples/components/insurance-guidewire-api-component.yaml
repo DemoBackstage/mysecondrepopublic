@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Insurance-guidewire-api
+  description: Insurance guidewire API
+  labels:
+    goVersion: go1.15.3
+    category: insurance
+  tags:
+    - go
+spec:
+  type: service
+  lifecycle: production
+  owner: opensource-practice@capgemini.com
+  system: insurance product
