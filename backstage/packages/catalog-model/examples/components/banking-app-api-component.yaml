@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Banking-app-api
+  description: Banking App API
+  labels:
+    goVersion: java11
+    category: Banking
+  tags:
+    - java
+spec:
+  type: service
+  lifecycle: production
+  owner: opensource-practice@capgemini.com
+  system: banking product
