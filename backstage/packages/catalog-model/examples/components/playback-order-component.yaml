@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: Insurance-app-service
   description: Insurance app service
+  annotations:
+    backstage.io/kubernetes-id: 123
   tags:
     - java
     - Insurance
