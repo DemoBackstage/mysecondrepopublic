@@ -5,7 +5,6 @@ metadata:
   description: Insurance app service
   tags:
     - java
-    - Insurance
 spec:
   type: service
   lifecycle: production
