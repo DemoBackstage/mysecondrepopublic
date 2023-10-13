@@ -1,11 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Insurance-app-service
-  description: Insurance app service
+  name: insurance-app-service
+  description: Insurance product details
+  annotations:
+    backstage.io/kubernetes-id: EKSCluster1ForBackstageIllustration
   tags:
     - java
-    - Insurance
+    - insurance
 spec:
   type: service
   lifecycle: production
