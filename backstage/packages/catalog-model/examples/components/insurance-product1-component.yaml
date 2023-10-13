@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: insurance-product1-service
+  description: Insurance product details
+  annotations:
+    backstage.io/kubernetes-id: EKSCluster1ForBackstageIllustration
+  tags:
+    - java
+    - insurance
+spec:
+  type: service
+  lifecycle: production
+  owner: opensource-practice@capgemini.com
+  system: insurance-product1
