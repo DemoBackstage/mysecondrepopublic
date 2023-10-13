@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Insurance-app-service
+  description: Insurance app service
+  tags:
+    - java
+    - Insurance
+spec:
+  type: service
+  lifecycle: production
+  owner: opensource-practice@capgemini.com
+  system: insurance-product
