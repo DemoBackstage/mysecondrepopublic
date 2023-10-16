@@ -4,7 +4,7 @@ metadata:
   name: insurance-product1-service
   description: Insurance product details
   annotations:
-    backstage.io/kubernetes-label-selector: 'hello-world-app'
+    backstage.io/kubernetes-label-selector: 'app: hello-world-app'
   tags:
     - java
     - insurance
