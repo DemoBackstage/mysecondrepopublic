@@ -6,6 +6,9 @@ metadata:
     backstage.io/kubernetes-id: hello-world-app-service
 spec:
   type: service
+  lifecycle: production
+  owner: opensource-practice@capgemini.com
+  system: kubernates-app
   replicas: 3
   selector:
     matchLabels:
