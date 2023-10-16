@@ -5,6 +5,7 @@ metadata:
   labels:
     backstage.io/kubernetes-id: hello-world-app-service
 spec:
+  type: service
   replicas: 3
   selector:
     matchLabels:
