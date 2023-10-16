@@ -7,7 +7,7 @@ metadata:
     backstage.io/kubernetes-label-selector: hello-world-app
   tags:
     - java
-  spec:
+spec:
   type: service
   lifecycle: production
   owner: opensource-practice@capgemini.com
